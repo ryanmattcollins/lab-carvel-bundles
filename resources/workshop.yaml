@@ -7,7 +7,8 @@ spec:
   description: Workshop exploring Carvel packaging.
   url: https://github.com/failk8s/lab-carvel-bundles
   content:
-    files: github.com/failk8s/lab-carvel-bundles
+    files: github.com/ryanmattcollins/lab-carvel-bundles
+    image: projects.registry.vmware.com/educates/base-environment-dev:docker
   session:
     namespaces:
       budget: small
