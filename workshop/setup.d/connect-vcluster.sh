@@ -2,7 +2,7 @@
 
 set -x
 
-set -eo pipefail
+set -e
 
 # Download vcluster binary.
 

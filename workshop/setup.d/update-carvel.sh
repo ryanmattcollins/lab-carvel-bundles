@@ -2,7 +2,7 @@
 
 set -x
 
-set -eo pipefail
+set -e
 
 # This workaround is due to lack of shasum in workshop image. The underlying
 # problem is actually in the Carvel installer and it needs to changed, but
